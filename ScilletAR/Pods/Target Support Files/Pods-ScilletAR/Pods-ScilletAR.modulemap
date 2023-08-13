@@ -1,0 +1,6 @@
+framework module Pods_ScilletAR {
+  umbrella header "Pods-ScilletAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

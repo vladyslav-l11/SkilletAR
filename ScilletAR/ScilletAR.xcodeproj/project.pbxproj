@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27152DDA2A645E1400F7991B /* SkilletJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27152DD92A645E1400F7991B /* SkilletJoint.swift */; };
+		27152DDC2A645EBA00F7991B /* SkilletBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27152DDB2A645EBA00F7991B /* SkilletBone.swift */; };
+		27152DDE2A6462AD00F7991B /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27152DDD2A6462AD00F7991B /* Bones.swift */; };
+		27152DE02A64645100F7991B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27152DDF2A64645100F7991B /* Localizable.strings */; };
+		27152DE42A64650000F7991B /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27152DE32A64650000F7991B /* Alias.swift */; };
+		272F64B42A646AD600E8B61D /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F64B32A646AD600E8B61D /* R.generated.swift */; };
+		272F64B62A6472AD00E8B61D /* BodySkillet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F64B52A6472AD00E8B61D /* BodySkillet.swift */; };
+		2759E8892A61DE870018D199 /* ScilletARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759E8882A61DE870018D199 /* ScilletARApp.swift */; };
+		2759E88B2A61DE870018D199 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759E88A2A61DE870018D199 /* ContentView.swift */; };
+		2759E88D2A61DE890018D199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2759E88C2A61DE890018D199 /* Assets.xcassets */; };
+		2759E8902A61DE890018D199 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2759E88F2A61DE890018D199 /* Preview Assets.xcassets */; };
+		2759E89C2A645A370018D199 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759E89B2A645A370018D199 /* ARViewContainer.swift */; };
+		27AFC6792A684E3C00AC2373 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFC6782A684E3C00AC2373 /* CustomARView.swift */; };
+		95AD60BCDC839393C70640FB /* Pods_ScilletAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E9654222CD82D10978C6C6 /* Pods_ScilletAR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035521E6460A107EF25CC1FA /* Pods-ScilletAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScilletAR.debug.xcconfig"; path = "Target Support Files/Pods-ScilletAR/Pods-ScilletAR.debug.xcconfig"; sourceTree = "<group>"; };
+		27152DD92A645E1400F7991B /* SkilletJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilletJoint.swift; sourceTree = "<group>"; };
+		27152DDB2A645EBA00F7991B /* SkilletBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilletBone.swift; sourceTree = "<group>"; };
+		27152DDD2A6462AD00F7991B /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+		27152DDF2A64645100F7991B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		27152DE32A64650000F7991B /* Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alias.swift; sourceTree = "<group>"; };
+		272F64B32A646AD600E8B61D /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = ScilletAR/Generated/R.generated.swift; sourceTree = SOURCE_ROOT; };
+		272F64B52A6472AD00E8B61D /* BodySkillet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkillet.swift; sourceTree = "<group>"; };
+		2759E8852A61DE870018D199 /* ScilletAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScilletAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2759E8882A61DE870018D199 /* ScilletARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScilletARApp.swift; sourceTree = "<group>"; };
+		2759E88A2A61DE870018D199 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2759E88C2A61DE890018D199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2759E88F2A61DE890018D199 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2759E89B2A645A370018D199 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		27AFC6782A684E3C00AC2373 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		76E9654222CD82D10978C6C6 /* Pods_ScilletAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScilletAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF74C86F52618B247F066B8E /* Pods-ScilletAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScilletAR.release.xcconfig"; path = "Target Support Files/Pods-ScilletAR/Pods-ScilletAR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2759E8822A61DE870018D199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AD60BCDC839393C70640FB /* Pods_ScilletAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27152DE12A64647C00F7991B /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				27152DDF2A64645100F7991B /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		27152DE22A6464BA00F7991B /* Alias */ = {
+			isa = PBXGroup;
+			children = (
+				27152DE32A64650000F7991B /* Alias.swift */,
+			);
+			path = Alias;
+			sourceTree = "<group>";
+		};
+		2759E87C2A61DE870018D199 = {
+			isa = PBXGroup;
+			children = (
+				2759E8872A61DE870018D199 /* ScilletAR */,
+				2759E8862A61DE870018D199 /* Products */,
+				C962CDFF92F32C0C0F16B17B /* Pods */,
+				543726DCF3721883199D77BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2759E8862A61DE870018D199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2759E8852A61DE870018D199 /* ScilletAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2759E8872A61DE870018D199 /* ScilletAR */ = {
+			isa = PBXGroup;
+			children = (
+				27AFC6742A683B9B00AC2373 /* Entities */,
+				27AFC6722A683B7A00AC2373 /* Components */,
+				27AFC6712A683B3F00AC2373 /* Views */,
+				2759E8972A6311B60018D199 /* Resources */,
+				2759E8882A61DE870018D199 /* ScilletARApp.swift */,
+				2759E88E2A61DE890018D199 /* Preview Content */,
+			);
+			path = ScilletAR;
+			sourceTree = "<group>";
+		};
+		2759E88E2A61DE890018D199 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2759E88F2A61DE890018D199 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2759E8972A6311B60018D199 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27152DE22A6464BA00F7991B /* Alias */,
+				27152DE12A64647C00F7991B /* Strings */,
+				2759E88C2A61DE890018D199 /* Assets.xcassets */,
+				2759E8982A6311C10018D199 /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2759E8982A6311C10018D199 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				272F64B32A646AD600E8B61D /* R.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		27AFC6712A683B3F00AC2373 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2759E88A2A61DE870018D199 /* ContentView.swift */,
+				27AFC6782A684E3C00AC2373 /* CustomARView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27AFC6722A683B7A00AC2373 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				27AFC6732A683B8400AC2373 /* ViewRepresentable */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		27AFC6732A683B8400AC2373 /* ViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				2759E89B2A645A370018D199 /* ARViewContainer.swift */,
+			);
+			path = ViewRepresentable;
+			sourceTree = "<group>";
+		};
+		27AFC6742A683B9B00AC2373 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				27152DD92A645E1400F7991B /* SkilletJoint.swift */,
+				27152DDB2A645EBA00F7991B /* SkilletBone.swift */,
+				27152DDD2A6462AD00F7991B /* Bones.swift */,
+				272F64B52A6472AD00E8B61D /* BodySkillet.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		543726DCF3721883199D77BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76E9654222CD82D10978C6C6 /* Pods_ScilletAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C962CDFF92F32C0C0F16B17B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				035521E6460A107EF25CC1FA /* Pods-ScilletAR.debug.xcconfig */,
+				BF74C86F52618B247F066B8E /* Pods-ScilletAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2759E8842A61DE870018D199 /* ScilletAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2759E8932A61DE890018D199 /* Build configuration list for PBXNativeTarget "ScilletAR" */;
+			buildPhases = (
+				A14AFD812360F2DC61E096C6 /* [CP] Check Pods Manifest.lock */,
+				2759E8962A6311320018D199 /* R.swift */,
+				2759E8812A61DE870018D199 /* Sources */,
+				2759E8822A61DE870018D199 /* Frameworks */,
+				2759E8832A61DE870018D199 /* Resources */,
+				77AB91BC90DEB4E6A60BC54D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScilletAR;
+			productName = ScilletAR;
+			productReference = 2759E8852A61DE870018D199 /* ScilletAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2759E87D2A61DE870018D199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2759E8842A61DE870018D199 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2759E8802A61DE870018D199 /* Build configuration list for PBXProject "ScilletAR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2759E87C2A61DE870018D199;
+			productRefGroup = 2759E8862A61DE870018D199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2759E8842A61DE870018D199 /* ScilletAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2759E8832A61DE870018D199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759E8902A61DE890018D199 /* Preview Assets.xcassets in Resources */,
+				27152DE02A64645100F7991B /* Localizable.strings in Resources */,
+				2759E88D2A61DE890018D199 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2759E8962A6311320018D199 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/ScilletAR/Generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/ScilletAR/Generated/R.generated.swift\"\n";
+		};
+		77AB91BC90DEB4E6A60BC54D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScilletAR/Pods-ScilletAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScilletAR/Pods-ScilletAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScilletAR/Pods-ScilletAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A14AFD812360F2DC61E096C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScilletAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2759E8812A61DE870018D199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27152DE42A64650000F7991B /* Alias.swift in Sources */,
+				2759E88B2A61DE870018D199 /* ContentView.swift in Sources */,
+				2759E89C2A645A370018D199 /* ARViewContainer.swift in Sources */,
+				272F64B42A646AD600E8B61D /* R.generated.swift in Sources */,
+				27152DDC2A645EBA00F7991B /* SkilletBone.swift in Sources */,
+				27152DDE2A6462AD00F7991B /* Bones.swift in Sources */,
+				27152DDA2A645E1400F7991B /* SkilletJoint.swift in Sources */,
+				2759E8892A61DE870018D199 /* ScilletARApp.swift in Sources */,
+				27AFC6792A684E3C00AC2373 /* CustomARView.swift in Sources */,
+				272F64B62A6472AD00E8B61D /* BodySkillet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2759E8912A61DE890018D199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2759E8922A61DE890018D199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2759E8942A61DE890018D199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035521E6460A107EF25CC1FA /* Pods-ScilletAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScilletAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 37TWXLX4PY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleveroad.ScilletAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2759E8952A61DE890018D199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF74C86F52618B247F066B8E /* Pods-ScilletAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScilletAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 37TWXLX4PY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleveroad.ScilletAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2759E8802A61DE870018D199 /* Build configuration list for PBXProject "ScilletAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2759E8912A61DE890018D199 /* Debug */,
+				2759E8922A61DE890018D199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2759E8932A61DE890018D199 /* Build configuration list for PBXNativeTarget "ScilletAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2759E8942A61DE890018D199 /* Debug */,
+				2759E8952A61DE890018D199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2759E87D2A61DE870018D199 /* Project object */;
+}
